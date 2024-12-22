@@ -1,0 +1,380 @@
+table_add tb_normal_forwarding set_egress_port_normal 74.125.71.16 => 11
+table_add tb_normal_forwarding set_egress_port_normal 173.252.100.27 => 13
+table_add tb_normal_forwarding set_egress_port_normal 74.125.207.16 => 14
+table_add tb_normal_forwarding set_egress_port_normal 205.188.12.43 => 13
+table_add tb_normal_forwarding set_egress_port_normal 173.194.123.101 => 13
+table_add tb_normal_forwarding set_egress_port_normal 108.175.42.181 => 13
+table_add tb_normal_forwarding set_egress_port_normal 131.202.6.26 => 13
+table_add tb_normal_forwarding set_egress_port_normal 134.170.25.26 => 12
+table_add tb_normal_forwarding set_egress_port_normal 173.194.78.189 => 14
+table_add tb_normal_forwarding set_egress_port_normal 68.67.153.2 => 13
+table_add tb_normal_forwarding set_egress_port_normal 173.194.67.16 => 1
+table_add tb_normal_forwarding set_egress_port_normal 173.194.210.188 => 13
+table_add tb_normal_forwarding set_egress_port_normal 209.148.205.41 => 14
+table_add tb_normal_forwarding set_egress_port_normal 216.58.210.3 => 14
+table_add tb_normal_forwarding set_egress_port_normal 108.175.43.146 => 13
+table_add tb_normal_forwarding set_egress_port_normal 216.58.208.37 => 14
+table_add tb_normal_forwarding set_egress_port_normal 107.21.103.88 => 14
+table_add tb_normal_forwarding set_egress_port_normal 68.67.153.40 => 12
+table_add tb_normal_forwarding set_egress_port_normal 108.175.39.202 => 13
+table_add tb_normal_forwarding set_egress_port_normal 24.36.174.173 => 13
+table_add tb_normal_forwarding set_egress_port_normal 74.125.134.188 => 14
+table_add tb_normal_forwarding set_egress_port_normal 142.1.33.2 => 13
+table_add tb_normal_forwarding set_egress_port_normal 131.202.240.87 => 14
+table_add tb_normal_forwarding set_egress_port_normal 68.67.153.211 => 13
+table_add tb_normal_forwarding set_egress_port_normal 209.148.205.35 => 4
+table_add tb_normal_forwarding set_egress_port_normal 10.8.8.178 => 14
+table_add tb_normal_forwarding set_egress_port_normal 216.58.210.78 => 12
+table_add tb_normal_forwarding set_egress_port_normal 199.212.24.173 => 14
+table_add tb_normal_forwarding set_egress_port_normal 23.192.162.186 => 7
+table_add tb_normal_forwarding set_egress_port_normal 70.80.25.101 => 14
+table_add tb_normal_forwarding set_egress_port_normal 69.172.216.55 => 14
+table_add tb_normal_forwarding set_egress_port_normal 68.67.153.146 => 13
+table_add tb_normal_forwarding set_egress_port_normal 137.117.177.33 => 13
+table_add tb_normal_forwarding set_egress_port_normal 173.194.196.16 => 13
+table_add tb_normal_forwarding set_egress_port_normal 108.175.43.161 => 13
+table_add tb_normal_forwarding set_egress_port_normal 216.58.219.230 => 14
+table_add tb_normal_forwarding set_egress_port_normal 64.12.27.65 => 10
+table_add tb_normal_forwarding set_egress_port_normal 173.194.67.189 => 14
+table_add tb_normal_forwarding set_egress_port_normal 10.0.2.15 => 13
+table_add tb_normal_forwarding set_egress_port_normal 157.56.192.53 => 12
+table_add tb_normal_forwarding set_egress_port_normal 68.67.176.42 => 13
+table_add tb_normal_forwarding set_egress_port_normal 184.73.252.179 => 2
+table_add tb_normal_forwarding set_egress_port_normal 74.125.202.16 => 14
+table_add tb_inference_forwarding set_egress_port_inference 0 => 13
+table_add tb_normal_forwarding set_egress_port_normal 157.56.126.188 => 13
+table_add tb_normal_forwarding set_egress_port_normal 74.125.69.16 => 13
+table_add tb_normal_forwarding set_egress_port_normal 10.8.8.130 => 14
+table_add tb_normal_forwarding set_egress_port_normal 178.237.18.202 => 14
+table_add tb_normal_forwarding set_egress_port_normal 216.58.219.206 => 6
+table_add tb_normal_forwarding set_egress_port_normal 173.194.123.124 => 12
+table_add tb_normal_forwarding set_egress_port_normal 131.202.240.150 => 13
+table_add tb_normal_forwarding set_egress_port_normal 64.233.183.16 => 14
+table_add tb_normal_forwarding set_egress_port_normal 74.125.133.16 => 14
+table_add tb_normal_forwarding set_egress_port_normal 208.117.251.116 => 12
+table_add tb_normal_forwarding set_egress_port_normal 184.29.105.106 => 13
+table_add tb_normal_forwarding set_egress_port_normal 199.127.194.212 => 3
+table_add tb_normal_forwarding set_egress_port_normal 23.67.255.209 => 13
+table_add tb_normal_forwarding set_egress_port_normal 107.22.243.234 => 13
+table_add tb_normal_forwarding set_egress_port_normal 216.58.208.46 => 14
+table_add tb_normal_forwarding set_egress_port_normal 178.237.17.103 => 13
+table_add tb_normal_forwarding set_egress_port_normal 65.55.2.6 => 14
+table_add tb_normal_forwarding set_egress_port_normal 63.245.217.113 => 13
+table_add tb_normal_forwarding set_egress_port_normal 205.188.12.91 => 12
+table_add tb_normal_forwarding set_egress_port_normal 216.58.219.238 => 12
+table_add tb_normal_forwarding set_egress_port_normal 10.8.8.110 => 13
+table_add tb_normal_forwarding set_egress_port_normal 209.148.205.16 => 13
+table_add tb_normal_forwarding set_egress_port_normal 63.245.216.134 => 9
+table_add tb_normal_forwarding set_egress_port_normal 199.212.24.172 => 13
+table_add tb_normal_forwarding set_egress_port_normal 2.101.222.231 => 14
+table_add tb_normal_forwarding set_egress_port_normal 77.103.197.35 => 13
+table_add tb_normal_forwarding set_egress_port_normal 23.50.75.27 => 13
+table_add tb_normal_forwarding set_egress_port_normal 209.148.205.33 => 13
+table_add tb_normal_forwarding set_egress_port_normal 66.220.156.2 => 13
+table_add tb_normal_forwarding set_egress_port_normal 24.140.134.21 => 13
+table_add tb_normal_forwarding set_egress_port_normal 134.170.19.124 => 13
+table_add tb_normal_forwarding set_egress_port_normal 2.30.116.54 => 13
+table_add tb_normal_forwarding set_egress_port_normal 131.202.240.242 => 13
+table_add tb_normal_forwarding set_egress_port_normal 199.16.156.201 => 12
+table_add tb_normal_forwarding set_egress_port_normal 86.4.212.228 => 14
+table_add tb_normal_forwarding set_egress_port_normal 208.118.125.54 => 12
+table_add tb_normal_forwarding set_egress_port_normal 74.125.70.16 => 13
+table_add tb_normal_forwarding set_egress_port_normal 23.235.40.143 => 12
+table_add tb_normal_forwarding set_egress_port_normal 173.194.194.16 => 14
+table_add tb_normal_forwarding set_egress_port_normal 63.245.216.132 => 8
+table_add tb_normal_forwarding set_egress_port_normal 199.212.24.175 => 12
+table_add tb_normal_forwarding set_egress_port_normal 204.83.155.169 => 13
+table_add tb_normal_forwarding set_egress_port_normal 10.8.8.234 => 14
+table_add tb_normal_forwarding set_egress_port_normal 10.8.8.138 => 13
+table_add tb_normal_forwarding set_egress_port_normal 64.4.23.162 => 13
+table_add tb_normal_forwarding set_egress_port_normal 185.2.220.137 => 13
+table_add tb_normal_forwarding set_egress_port_normal 173.194.78.16 => 13
+table_add tb_normal_forwarding set_egress_port_normal 105.237.177.132 => 13
+table_add tb_normal_forwarding set_egress_port_normal 199.212.24.174 => 13
+table_add tb_normal_forwarding set_egress_port_normal 216.58.208.35 => 14
+table_add tb_normal_forwarding set_egress_port_normal 24.156.130.203 => 13
+table_add tb_normal_forwarding set_egress_port_normal 157.56.52.13 => 14
+table_add tb_normal_forwarding set_egress_port_normal 38.124.168.119 => 12
+table_add tb_normal_forwarding set_egress_port_normal 173.194.67.94 => 14
+table_add tb_normal_forwarding set_egress_port_normal 64.233.184.16 => 14
+table_add tb_normal_forwarding set_egress_port_normal 173.194.20.107 => 14
+table_add tb_normal_forwarding set_egress_port_normal 216.58.210.46 => 5
+table_add tb_normal_forwarding set_egress_port_normal 216.58.210.14 => 13
+table_add tb_normal_forwarding set_egress_port_normal 91.190.216.125 => 13
+table_add tb_normal_forwarding set_egress_port_normal 137.116.32.77 => 13
+table_add tb_normal_forwarding set_egress_port_normal 64.233.167.16 => 13
+table_add tb_normal_forwarding set_egress_port_normal 216.58.210.35 => 13
+table_add tb_normal_forwarding set_egress_port_normal 74.125.193.16 => 12
+table_set_default check_swid check_switch_id 3
+# table_add check_swid check_switch_id 3 =>
+table_add check_swid check_switch_id 4 => 3
+
+
+table_set_default early_exiting_2 no_early_exit
+
+table_add early_exiting_2 yes_early_exit 1 =>
+
+table_add early_exiting_2 no_early_exit 0 =>
+
+############## commands for switches ##################
+
+register_write MyIngress.weights_bnn 0 3579910439467803765 
+register_write MyIngress.weights_bnn 1 183469309915877346 
+register_write MyIngress.weights_bnn 2 715108051118170166 
+register_write MyIngress.weights_bnn 3 6854825726015625897 
+register_write MyIngress.weights_bnn 4 5054139083499373812 
+register_write MyIngress.weights_bnn 5 2656041434255018216 
+register_write MyIngress.weights_bnn 6 1631939606635908261 
+register_write MyIngress.weights_bnn 7 36770535280140307 
+register_write MyIngress.weights_bnn 8 2326566019325319728 
+register_write MyIngress.weights_bnn 9 904058148035743198 
+register_write MyIngress.weights_bnn 10 7380580169878331557 
+register_write MyIngress.weights_bnn 11 1227393432849236889 
+register_write MyIngress.weights_bnn 12 4445474871835414809 
+register_write MyIngress.weights_bnn 13 4270740081828460602 
+register_write MyIngress.weights_bnn 14 5206633117196597762 
+register_write MyIngress.weights_bnn 15 1938595259544015643 
+register_write MyIngress.weights_bnn 16 1310631356925738896 
+register_write MyIngress.weights_bnn 17 2556907495133903691 
+register_write MyIngress.weights_bnn 18 6292878798236601887 
+register_write MyIngress.weights_bnn 19 1571066617302415796 
+register_write MyIngress.weights_bnn 20 9043725921713087402 
+register_write MyIngress.weights_bnn 21 6416026056711186600 
+register_write MyIngress.weights_bnn 22 5337750610305689533 
+register_write MyIngress.weights_bnn 23 1949180009767500591 
+register_write MyIngress.weights_bnn 24 2227219980422473314 
+register_write MyIngress.weights_bnn 25 475562905023947376 
+register_write MyIngress.weights_bnn 26 8398797838657789871 
+register_write MyIngress.weights_bnn 27 4281230345278851562 
+register_write MyIngress.weights_bnn 28 3900935965193318248 
+register_write MyIngress.weights_bnn 29 6992611936279266379 
+register_write MyIngress.weights_bnn 30 5014334091789014139 
+register_write MyIngress.weights_bnn 31 2037171779392609605 
+register_write MyIngress.weights_bnn 32 683577917428537341 
+register_write MyIngress.weights_bnn 33 5323182659886910753 
+register_write MyIngress.weights_bnn 34 9008633179591572187 
+register_write MyIngress.weights_bnn 35 7288676780357478474 
+register_write MyIngress.weights_bnn 36 2919194981543449157 
+register_write MyIngress.weights_bnn 37 4572955387187046371 
+register_write MyIngress.weights_bnn 38 549320948904041289 
+register_write MyIngress.weights_bnn 39 1744543154426260718 
+register_write MyIngress.weights_bnn 40 792461865946825639 
+register_write MyIngress.weights_bnn 41 1330649718576008522 
+register_write MyIngress.weights_bnn 42 8491520264930048315 
+register_write MyIngress.weights_bnn 43 1768463011284711660 
+register_write MyIngress.weights_bnn 44 2693784598389184919 
+register_write MyIngress.weights_bnn 45 6771223835396030377 
+register_write MyIngress.weights_bnn 46 1773489959282681479 
+register_write MyIngress.weights_bnn 47 6722763654689908982 
+register_write MyIngress.weights_bnn 48 1917670076435438899 
+register_write MyIngress.weights_bnn 49 2345769885164862213 
+register_write MyIngress.weights_bnn 50 8724117599959792242 
+register_write MyIngress.weights_bnn 51 6115811005910679157 
+register_write MyIngress.weights_bnn 52 3511484909909281515 
+register_write MyIngress.weights_bnn 53 6764468437613159957 
+register_write MyIngress.weights_bnn 54 8816417937020835470 
+register_write MyIngress.weights_bnn 55 3790243768240278938 
+register_write MyIngress.weights_bnn 56 5557069224199425165 
+register_write MyIngress.weights_bnn 57 335365782280924497 
+register_write MyIngress.weights_bnn 58 2250450970393598442 
+register_write MyIngress.weights_bnn 59 2801487426693495327 
+register_write MyIngress.weights_bnn 60 8941797390054852632 
+register_write MyIngress.weights_bnn 61 3935310701073824963 
+register_write MyIngress.weights_bnn 62 8680257778452462607 
+register_write MyIngress.weights_bnn 63 6449202352821094304 
+register_write MyIngress.weights_bnn 64 2672755344923700442 
+register_write MyIngress.weights_bnn 65 7283541736599775559 
+register_write MyIngress.weights_bnn 66 8318747178383418306 
+register_write MyIngress.weights_bnn 67 7735196450351620140 
+register_write MyIngress.weights_bnn 68 5870513805471956265 
+register_write MyIngress.weights_bnn 69 5904129181069626326 
+register_write MyIngress.weights_bnn 70 6473818352079663511 
+register_write MyIngress.weights_bnn 71 6209083954836659028 
+register_write MyIngress.weights_bnn 72 6000401547459798069 
+register_write MyIngress.weights_bnn 73 880246451598875261 
+register_write MyIngress.weights_bnn 74 9051998163620656636 
+register_write MyIngress.weights_bnn 75 496655505216350585 
+register_write MyIngress.weights_bnn 76 321111409625098236 
+register_write MyIngress.weights_bnn 77 1026410180528883447 
+register_write MyIngress.weights_bnn 78 7217781893061310906 
+register_write MyIngress.weights_bnn 79 100236047856917978 
+register_write MyIngress.weights_bnn 80 4995398997434077672 
+register_write MyIngress.weights_bnn 81 8542318837065999070 
+register_write MyIngress.weights_bnn 82 3185275999332280955 
+register_write MyIngress.weights_bnn 83 9127539898471203129 
+register_write MyIngress.weights_bnn 84 109106898161003665 
+register_write MyIngress.weights_bnn 85 7250542786344055513 
+register_write MyIngress.weights_bnn 86 8676765868638827344 
+register_write MyIngress.weights_bnn 87 8675642018489173954 
+register_write MyIngress.weights_bnn 88 8294090025518081508 
+register_write MyIngress.weights_bnn 89 1682730636631282998 
+register_write MyIngress.weights_bnn 90 7644312039215797861 
+register_write MyIngress.weights_bnn 91 6936156124752501233 
+register_write MyIngress.weights_bnn 92 5174203977670955175 
+register_write MyIngress.weights_bnn 93 1958278259084943864 
+register_write MyIngress.weights_bnn 94 78667462278086392 
+register_write MyIngress.weights_bnn 95 8481554498222106792 
+register_write MyIngress.weights_bnn 96 9206693157994292979 
+register_write MyIngress.weights_bnn 97 4290402827392597326 
+register_write MyIngress.weights_bnn 98 5111798640131892169 
+register_write MyIngress.weights_bnn 99 8372225077326662433 
+register_write MyIngress.weights_bnn 100 6978580652043563072 
+register_write MyIngress.weights_bnn 101 3774803050227713604 
+register_write MyIngress.weights_bnn 102 5303419900757503072 
+register_write MyIngress.weights_bnn 103 7271957260114033671 
+register_write MyIngress.weights_bnn 104 2423549783209207931 
+register_write MyIngress.weights_bnn 105 663250161309739046 
+register_write MyIngress.weights_bnn 106 1431442352430704895 
+register_write MyIngress.weights_bnn 107 2670703492668011649 
+register_write MyIngress.weights_bnn 108 7355358329422026773 
+register_write MyIngress.weights_bnn 109 7452837745892247303 
+register_write MyIngress.weights_bnn 110 2633726588739406680 
+register_write MyIngress.weights_bnn 111 2897868668910940666 
+register_write MyIngress.weights_bnn 112 4605097766238801136 
+register_write MyIngress.weights_bnn 113 2001230648475008440 
+register_write MyIngress.weights_bnn 114 1455672980230286984 
+register_write MyIngress.weights_bnn 115 5062507570692625309 
+register_write MyIngress.weights_bnn 116 2654885293141739263 
+register_write MyIngress.weights_bnn 117 857820632191661073 
+register_write MyIngress.weights_bnn 118 4105008303075300827 
+register_write MyIngress.weights_bnn 119 5060016332480417727 
+register_write MyIngress.weights_bnn 120 4396123820766878747 
+register_write MyIngress.weights_bnn 121 4220883323014887994 
+register_write MyIngress.weights_bnn 122 7490455739564604643 
+register_write MyIngress.weights_bnn 123 329898275671021832 
+register_write MyIngress.weights_bnn 124 6547853241429053815 
+register_write MyIngress.weights_bnn 125 6540726140075145955 
+register_write MyIngress.weights_bnn 126 5835518818344253309 
+register_write MyIngress.weights_bnn 127 4016096742146198820 
+register_write MyIngress.weights_bnn 128 2642343524471389609 
+register_write MyIngress.weights_bnn 129 6068612483177824150 
+register_write MyIngress.weights_bnn 130 9039412363264032506 
+register_write MyIngress.weights_bnn 131 2211280254482267926 
+register_write MyIngress.weights_bnn 132 439265332665808990 
+register_write MyIngress.weights_bnn 133 8946408523133366689 
+register_write MyIngress.weights_bnn 134 2053863801379296026 
+register_write MyIngress.weights_bnn 135 5569622187812094472 
+register_write MyIngress.weights_bnn 136 4922357162824666203 
+register_write MyIngress.weights_bnn 137 1678209932119910633 
+register_write MyIngress.weights_bnn 138 3355659991773961837 
+register_write MyIngress.weights_bnn 139 1122712719945194764 
+register_write MyIngress.weights_bnn 140 9131665795633287988 
+register_write MyIngress.weights_bnn 141 1595880561376288845 
+register_write MyIngress.weights_bnn 142 5390822016669198549 
+register_write MyIngress.weights_bnn 143 9180385087101054092 
+register_write MyIngress.weights_bnn 144 2557030163893783949 
+register_write MyIngress.weights_bnn 145 3315175339136748243 
+register_write MyIngress.weights_bnn 146 857188536025866507 
+register_write MyIngress.weights_bnn 147 4490358668956735298 
+register_write MyIngress.weights_bnn 148 7184902085398763875 
+register_write MyIngress.weights_bnn 149 6638367248676133859 
+register_write MyIngress.weights_bnn 150 1616859277445316696 
+register_write MyIngress.weights_bnn 151 1484314361403420203 
+register_write MyIngress.weights_bnn 152 1640786991051571818 
+register_write MyIngress.weights_bnn 153 6649618261823410588 
+register_write MyIngress.weights_bnn 154 2043567526993868579 
+register_write MyIngress.weights_bnn 155 8914548534898771301 
+register_write MyIngress.weights_bnn 156 5442558531315392398 
+register_write MyIngress.weights_bnn 157 1462640029536727941 
+register_write MyIngress.weights_bnn 158 2169123400053850827 
+register_write MyIngress.weights_bnn 159 8632933178904316932 
+register_write MyIngress.weights_bnn 160 8475956081514158516 
+register_write MyIngress.weights_bnn 161 5762959391730375235 
+register_write MyIngress.weights_bnn 162 469613049882610493 
+register_write MyIngress.weights_bnn 163 3205790205815278792 
+register_write MyIngress.weights_bnn 164 2534537498838572385 
+register_write MyIngress.weights_bnn 165 1525211335667229339 
+register_write MyIngress.weights_bnn 166 3571659892017906762 
+register_write MyIngress.weights_bnn 167 4053804807026203131 
+register_write MyIngress.weights_bnn 168 3941694992553794132 
+register_write MyIngress.weights_bnn 169 3413881308563863243 
+register_write MyIngress.weights_bnn 170 5155530821330484536 
+register_write MyIngress.weights_bnn 171 818074448965340087 
+register_write MyIngress.weights_bnn 172 2947928298683892754 
+register_write MyIngress.weights_bnn 173 5946779866203915101 
+register_write MyIngress.weights_bnn 174 3669649069382724774 
+register_write MyIngress.weights_bnn 175 2594289770450714777 
+register_write MyIngress.weights_bnn 176 4504378391962677614 
+register_write MyIngress.weights_bnn 177 3424382045765539733 
+register_write MyIngress.weights_bnn 178 7112932462799288010 
+register_write MyIngress.weights_bnn 179 278411980786300128 
+register_write MyIngress.weights_bnn 180 2764990671633166610 
+register_write MyIngress.weights_bnn 181 2987024293085057774 
+register_write MyIngress.weights_bnn 182 1630456257630586032 
+register_write MyIngress.weights_bnn 183 5285334813139917282 
+register_write MyIngress.weights_bnn 184 4040987353880820341 
+register_write MyIngress.weights_bnn 185 6248733173267612972 
+register_write MyIngress.weights_bnn 186 6919122318584237988 
+register_write MyIngress.weights_bnn 187 461734042092188885 
+register_write MyIngress.weights_bnn 188 435663912548075711 
+register_write MyIngress.weights_bnn 189 8751908078182126471 
+register_write MyIngress.weights_bnn 190 4109833227729601415 
+register_write MyIngress.weights_bnn 191 1111972716108287022 
+register_write MyIngress.weights_bnn 192 5822873219890751142 
+register_write MyIngress.weights_bnn 193 9144410880682958548 
+register_write MyIngress.weights_bnn 194 9028319156243398778 
+register_write MyIngress.weights_bnn 195 3794323125761444095 
+register_write MyIngress.weights_bnn 196 8868006850661496901 
+register_write MyIngress.weights_bnn 197 219067480057599510 
+register_write MyIngress.weights_bnn 198 3841271234103015602 
+register_write MyIngress.weights_bnn 199 5383899262652228109 
+register_write MyIngress.weights_bnn 200 2296599058639007628 
+register_write MyIngress.weights_bnn 201 108163021812124615 
+register_write MyIngress.weights_bnn 202 9023293867069429539 
+register_write MyIngress.weights_bnn 203 2640338992295519756 
+register_write MyIngress.weights_bnn 204 3385493415031343071 
+register_write MyIngress.weights_bnn 205 3617987897027139831 
+register_write MyIngress.weights_bnn 206 7009316319915768198 
+register_write MyIngress.weights_bnn 207 2695556699642879118 
+register_write MyIngress.weights_bnn 208 8838002651427641212 
+register_write MyIngress.weights_bnn 209 1131133705792233978 
+register_write MyIngress.weights_bnn 210 6606735816450525085 
+register_write MyIngress.weights_bnn 211 7773153699454407529 
+register_write MyIngress.weights_bnn 212 308022847790016564 
+register_write MyIngress.weights_bnn 213 1917564197533464917 
+register_write MyIngress.weights_bnn 214 2399637146391385474 
+register_write MyIngress.weights_bnn 215 1488657033648625241 
+register_write MyIngress.weights_bnn 216 7936914288112628810 
+register_write MyIngress.weights_bnn 217 6232516482783371909 
+register_write MyIngress.weights_bnn 218 6211128090090457263 
+register_write MyIngress.weights_bnn 219 2975586204640946699 
+register_write MyIngress.weights_bnn 220 2486415989784605390 
+register_write MyIngress.weights_bnn 221 2668007029513386037 
+register_write MyIngress.weights_bnn 222 7171641728312243418 
+register_write MyIngress.weights_bnn 223 691744500978286534 
+register_write MyIngress.weights_bnn 224 1590918420247549828 
+register_write MyIngress.weights_bnn 225 2732608671269085791 
+register_write MyIngress.weights_bnn 226 5407756440477563139 
+register_write MyIngress.weights_bnn 227 5652147679037993987 
+register_write MyIngress.weights_bnn 228 4619578649971312278 
+register_write MyIngress.weights_bnn 229 4967243749300560239 
+register_write MyIngress.weights_bnn 230 8837173398399898 
+register_write MyIngress.weights_bnn 231 424315190963953760 
+register_write MyIngress.weights_bnn 232 6983550074710719747 
+register_write MyIngress.weights_bnn 233 8671601708611697456 
+register_write MyIngress.weights_bnn 234 707881226260214137 
+register_write MyIngress.weights_bnn 235 7365162429582310329 
+register_write MyIngress.weights_bnn 236 8269353079599509391 
+register_write MyIngress.weights_bnn 237 2862351055618287273 
+register_write MyIngress.weights_bnn 238 4823800038188565200 
+register_write MyIngress.weights_bnn 239 6073721777769782684 
+register_write MyIngress.weights_bnn 240 7314711822921187022 
+register_write MyIngress.weights_bnn 241 2477619820240758646 
+register_write MyIngress.weights_bnn 242 8551320541826687863 
+register_write MyIngress.weights_bnn 243 3505093827798704906 
+register_write MyIngress.weights_bnn 244 3422949364738152514 
+register_write MyIngress.weights_bnn 245 7504713344226180529 
+register_write MyIngress.weights_bnn 246 4367177220155640723 
+register_write MyIngress.weights_bnn 247 6096629980534788460 
+register_write MyIngress.weights_bnn 248 6730639742457605881 
+register_write MyIngress.weights_bnn 249 8288525311785827245 
+register_write MyIngress.weights_bnn 250 8580973518571089554 
+register_write MyIngress.weights_bnn 251 6339607081746479258 
+
+############## commands for switches ##################
+
+register_write MyIngress.weights_bnn 252 934668903458872054 
+register_write MyIngress.weights_bnn 253 4620432673938737407 
+register_write MyIngress.weights_bnn 254 5835933729310293005 
+register_write MyIngress.weights_bnn 255 4559862980366401512 
+
