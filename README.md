@@ -2,6 +2,7 @@
 
 ## Overview of TINIEE
 
+<p align="center">
 <img src="TINIEE_Overview.png" alt="TINIEE Overview" width="600">
 
 TINIEE implements deep neural network (DNN) models with early-exit strategies in programmable data planes (PDP). By leveraging intermediate classifiers within the DNN, it dynamically evaluates confidence scores at each switch to decide whether packets should exit early or proceed to subsequent layers. This adaptive mechanism effectively balances network traffic management and inference accuracy.
