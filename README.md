@@ -48,7 +48,7 @@ make {Topology}_{Method}_{Confidence Threshold}
 ```
 
 #### Available Options
-- **Topologies**: `ita` (Italian), `NSF` (NSFNET), `jpn` (Japanese)
+- **Topologies**: `ITA` (Italian), `NSF` (NSFNET), `JPN` (Japanese)
 - **Methods**: `TINIEE`, `DINC`, `NNsplit`
 - **Confidence Thresholds**: `0.55`, `0.60`, `0.65`, `0.70`, `0.75`, `0.80`, `0.85`, `0.90`, `0.95`
 

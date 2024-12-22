@@ -1,0 +1,5 @@
+Total Packets: 1000
+Recall: 0.8858195211786372
+Precision: 0.8874538745387454
+Accuracy: 0.877
+F1 Score: 0.8866359447004608
