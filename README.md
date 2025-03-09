@@ -40,7 +40,7 @@ To run the code, basic dependencies such as `p4c`, `Bmv2`, and `Mininet` should 
 
 ### Clone Repository
 ```bash
-git clone <https://github.com/keemeew/TINIEE>
+git clone https://github.com/keemeew/TINIEE
 ```
 ### Execute P4 Programs
 Use the following `make` commands to execute specific topologies and methods. The general format is:
