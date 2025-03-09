@@ -51,7 +51,7 @@ make {Topology}_{Method}_{Confidence Threshold}
 #### Available Options
 - **Topologies**: `ITA` (Italian), `NSF` (NSFNET), `JPN` (Japanese)
 - **Methods**: `TINIEE`, `DINC`, `NNsplit`
-- **Confidence Thresholds**: `55(0.55)`, `60(0.60)`, `65(0.65)`, `70(0.70)`, `75(0.75)`, `80(0.80)`, `85(0.85)`, `90(0.90)`, `95(0.95)`
+- **Confidence Thresholds**: `55(0.55)`, `60(0.60)`, ... , `90(0.90)`, `95(0.95)`
 
 #### Example Command for TINIEE
 To execute the TINIEE method with the Italian topology and a threshold of 0.55:
