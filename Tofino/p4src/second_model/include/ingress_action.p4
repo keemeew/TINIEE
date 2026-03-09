@@ -1,11 +1,3 @@
-action set_inference_layer(){
-    hdr.ethernet.etherType = TYPE_INFER;
-    hdr.ipv4.tos[7:2] = 20;
-    hdr.tiniee.setValid();
-    hdr.inference.setValid();
-    hdr.ethernet.srcAddr = ig_intr_md.ingress_mac_tstamp;
-}
-
 action weight_preprocessing(bit<16> weight_1, bit<8> weight_2, 
                             bit<16> weight_3_1, bit<16> weight_3_2,
                             bit<16> weight_4_1, bit<16> weight_4_2, 
@@ -20,18 +12,6 @@ action weight_preprocessing(bit<16> weight_1, bit<8> weight_2,
     ig_md.meta.weight_5 = weight_5;
     ig_md.meta.weight_6 = weight_6;
     ig_md.meta.weight_7 = weight_7;
-}
-
-action feature_preprocessing() {
-    hdr.inference.features_1 = hdr.ipv4.totalLen;
-    hdr.inference.features_2 = hdr.ipv4.protocol;    
-    hdr.inference.features_3_1 = hdr.ipv4.srcAddr[31:16];
-    hdr.inference.features_3_2 = hdr.ipv4.srcAddr[15:0];
-    hdr.inference.features_4_1 = hdr.ipv4.dstAddr[31:16];
-    hdr.inference.features_4_2 = hdr.ipv4.dstAddr[15:0];
-    hdr.inference.features_5 = hdr.tcp.srcPort;
-    hdr.inference.features_6 = hdr.tcp.dstPort;
-    hdr.inference.features_7 = 2w0b00 ++ hdr.tcp.ctrl;
 }
 
 action XNOR_1_1() {
@@ -190,7 +170,6 @@ action early_exit(bit<9> egress_spec) {
     hdr.ipv4.ttl = hdr.ipv4.ttl - 1;
     hdr.tiniee.cnt = hdr.tiniee.cnt + 1;
     hdr.ipv4.tos[7:2] = 10;
-    hdr.ethernet.dstAddr = ig_prsr_md.global_tstamp;
 }
 
 action inference_routing(bit<9> egress_spec) {
@@ -198,8 +177,6 @@ action inference_routing(bit<9> egress_spec) {
     hdr.ipv4.ttl = hdr.ipv4.ttl - 1;
     hdr.tiniee.cnt = hdr.tiniee.cnt + 1;
     hdr.ipv4.tos[7:2] = 10;
-    hdr.inference.layer = 2;
-    hdr.ethernet.dstAddr = ig_prsr_md.global_tstamp;
 }
 
 action do_recirculation() {
@@ -211,5 +188,4 @@ action do_recirculation() {
 action set_egress_port(bit<9> egress_spec) {
     ig_tm_md.ucast_egress_port = egress_spec;
     hdr.ipv4.ttl=hdr.ipv4.ttl-1;
-    hdr.ethernet.dstAddr = ig_prsr_md.global_tstamp;
 }

@@ -25,6 +25,7 @@ TINIEE implements deep neural network (DNN) models with early-exit strategies in
 </table>
 
 ### Network Performances
+<p align="center">
 <table>
   <tr>
     <td align="center"><img src="Figures/Traffic.png" width="250"/></td>
@@ -41,10 +42,11 @@ TINIEE implements deep neural network (DNN) models with early-exit strategies in
 ## Tofino environments
 ### Topology
 This is the topology used during the performance evaluation of TINIEE on the Tofino:
-<img src="Figures/Tofino_topology.png" widt="800"/>
-Traffic was generated and sent by host1 towards host2, with each switch running three submodels of TINIEE. Note that three submodels are actually deployed in the single Wedge100BF 32X Tofino switch, but logically separated by allocating different ports.
+<img src="Figures/Tofino_topology.png" widt="600"/>
+Traffic was generated and sent by host1 towards host2, with each switch running three submodels of TINIEE. Note that we emulate the multi-submodel inference testbed by sequentially deploying three submodels on the same switch, and calculating the processing delay by summing the packet-wise delays measured until each packet becomes exited.
 
 ### Performance
+<p align="center">
 <table>
   <tr>
     <td align="center"><img src="Figures/Processing_delay.png" width="350"/></td>

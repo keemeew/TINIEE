@@ -20,15 +20,13 @@ control SwitchIngress(inout headers hdr,
     #include "include/ingress_action.p4"
     #include "include/ingress_table.p4"
     
-    apply {
-        if (hdr.ethernet.etherType == 0x0800) {
-            tb_init.apply();
-        }
-        
-        if (hdr.inference.isValid()) { 
-            
-            tb_weight_preprocessing.apply(); 
-            tb_feature_preprocessing.apply();
+    apply {        
+        if (hdr.inference.isValid()) {
+            if (!hdr.tiniee.isValid()){
+                hdr.tiniee.setValid();
+            }
+
+            tb_weight_preprocessing.apply();
             
             tb_XNOR_1.apply();
             tb_XNOR_2.apply();
@@ -64,15 +62,6 @@ control SwitchIngress(inout headers hdr,
             tb_substraction.apply();
 
             tb_predict.apply();
-
-            tb_compute_confidence.apply();
-            
-            if (ig_md.meta.confidence >=c_threshold || hdr.inference.layer == 3){
-                ig_md.meta.exit_result = 1;
-            }
-            else{
-                ig_md.meta.exit_result = 0;
-            }
         }
 
         if (hdr.tiniee.isValid()){
@@ -98,14 +87,16 @@ control SwitchEgress(inout headers hdr,
     #include "include/egress_table.p4"
     
     apply {
-        tb_exit_process.apply();
-        tb_activate_zero.apply();
-        if (eg_md.meta.PopCountOut > 63){
-            tb_activate_one.apply();
-        }
+        if (hdr.inference.isValid()){
+            tb_exit_process.apply();
+            tb_activate_zero.apply();
+            if (eg_md.meta.PopCountOut > 63){
+                tb_activate_one.apply();
+            }   
 
-        tb_invalid.apply();
-     }
+            tb_invalid.apply();
+        }   
+    }
 }
 
 /*************************************************************************
