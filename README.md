@@ -3,63 +3,53 @@
 ## Overview of TINIEE
 
 <p align="center">
-<img src="TINIEE_Overview.png" alt="TINIEE Overview" width="600">
+<img src="Figures/TINIEE_Overview.png" alt="TINIEE Overview" width="600">
 
 TINIEE implements deep neural network (DNN) models with early-exit strategies in programmable data planes (PDP). By leveraging intermediate classifiers within the DNN, it dynamically evaluates confidence scores at each switch to decide whether packets should exit early or proceed to subsequent layers. This adaptive mechanism effectively balances network traffic management and inference accuracy.
 
+# Performance Results
 
-## Folder Structure
+## BMv2 environments
+### In-Network Classification Performances
+<table>
+  <tr>
+    <td align="center"><img src="Figures/Accuracy.png" width="250"/></td>
+    <td align="center"><img src="Figures/F1_score.png" width="250"/></td>
+    <td align="center"><img src="Figures/Exit_tendency.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center">Accuracy</td>
+    <td align="center">F1-score</td>
+    <td align="center">Exit Tendency</td>
+  </tr>
+</table>
 
-### `p4src`
-Contain P4 code files for the TINIEE, DINC, and NNsplit methods. Each file implements the data plane logic of its respective method.
+### Network Performances
+<table>
+  <tr>
+    <td align="center"><img src="Figures/Traffic.png" width="250"/></td>
+    <td align="center"><img src="Figures/MLU.png" width="240"/></td>
+    <td align="center"><img src="Figures/Flow_completion_time.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center">Network Traffic</td>
+    <td align="center">Maximum Link Utlization</td>
+    <td align="center">Flow Completion Time</td>
+  </tr>
+</table>
 
-### `rule`
-Store topology-specific model rules for the Italian, NSFNET, and Japanese environments. These rules guide the behavior of each method within the defined topologies.
+## Tofino environments
+### Topology
+This is the topology used during the performance evaluation of TINIEE on the Tofino:
+<img src="Figures/Tofino_topology.png" widt="800"/>
+Traffic was generated and sent by host1 towards host2, with each switch running three submodels of TINIEE. Note that three submodels are actually deployed in the single Wedge100BF 32X Tofino switch, but logically separated by allocating different ports.
 
-### `packets`
-Handle the core functionality of the network, including:
-- Packet transmission and reception.
-- Mininet environment setup.
-- Result computation and network execution logic.
-
-### `result` & `temp_result`
-- **`result`**: Contain packet delay and inference results based on topology and confidence threshold.
-- **`temp_result`**: Contain raw intermediate files that are processed to generate `result`.
-
-### `Topology_solution`
-Contain model placement results in the control plane for TINIEE and DINC. These results are used to deploy models onto Bmv2 switches.
-
-## Dependencies
-To run the code, basic dependencies such as `p4c`, `Bmv2`, and `Mininet` should be installed. It is strongly recommended to place these dependencies identically in the home directory. Detailed installation instructions can be found at the following links:
-
-- **p4c**: [https://github.com/p4lang/p4c](https://github.com/p4lang/p4c)
-- **Bmv2**: [https://github.com/p4lang/behavioral-model](https://github.com/p4lang/behavioral-model)
-- **Mininet**: [https://github.com/mininet/mininet](https://github.com/mininet/mininet)
-
-## Execution Steps
-
-### Clone Repository
-```bash
-git clone https://github.com/keemeew/TINIEE
-```
-### Execute P4 Programs
-Use the following `make` commands to execute specific topologies and methods. The general format is:
-```bash
-make {Topology}_{Method}_{Confidence Threshold}
-```
-
-#### Available Options
-- **Topologies**: `ITA` (Italian), `NSF` (NSFNET), `JPN` (Japanese)
-- **Methods**: `TINIEE`, `DINC`, `NNsplit`
-- **Confidence Thresholds**: `55(0.55)`, `60(0.60)`, ... , `90(0.90)`, `95(0.95)`
-
-#### Example Command for TINIEE
-To execute the TINIEE method with the Italian topology and a threshold of 0.55:
-```bash
-make ITA_EE_55
-```
-### Clean Up
-To stop and clean the environment:
-```bash
-make clean
-```
+### Performance
+<table>
+  <tr>
+    <td align="center"><img src="Figures/Processing_delay.png" width="350"/></td>
+  </tr>
+  <tr>
+    <td align="center">Processing Delays</td>
+  </tr>
+</table>
